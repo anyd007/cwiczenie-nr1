@@ -7,7 +7,7 @@ const text1 = document.createElement('h1');
 
 
 document.body.append(text1)
-text1.textContent = 'witam wsztskich...:)'
+text1.textContent = 'witam wszystkich...:)'
 text1.classList.add('hideText');
 
 

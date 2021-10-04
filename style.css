@@ -54,7 +54,7 @@ body{
 
 .item1 {
   height: 40px;
-  background-image: url('https://pixabay.com/get/g336612a2e6cac84507e33a17b14292ba6a2db91b24b99eda655548a350493aa1108764037b04af457389a6562c54da9e4d8400dd1d3b89452fa2734048d7d15f16ecc90c270e76f19fe9bcee5531f99d_1920.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2017/10/25/03/40/musical-background-2886886_960_720.jpg');
 }
 
 .item2 {
@@ -70,11 +70,11 @@ body{
   }
   .itemChange2{
     height: 300px;
-  background-image: url('https://pixabay.com/get/g336612a2e6cac84507e33a17b14292ba6a2db91b24b99eda655548a350493aa1108764037b04af457389a6562c54da9e4d8400dd1d3b89452fa2734048d7d15f16ecc90c270e76f19fe9bcee5531f99d_1920.jpg');
+  background-image: url('https://cdn.pixabay.com/photo/2017/10/25/03/40/musical-background-2886886_960_720.jpg');
   }
 
 .hide {
-  height: 300px;
+  height: 250px;
 }
 
 /* .background {
