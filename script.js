@@ -15,13 +15,19 @@ const fun1 = () =>{
     img1.classList.toggle('hide');
     img1.classList.toggle('itemChange');
     img2.classList.toggle('itemChange2');
-    srcArrow.classList.toggle('fa-arrow-up');
-    text1.classList.toggle('hideText');
+    if(img1.classList.contains('hide')){
+        srcArrow.style.transform = 'rotate(180deg)';
+    } else{
+        srcArrow.style.transform = 'rotate(0deg)';
+    }
+    // srcArrow.classList.toggle('fa-arrow-up');
+    setTimeout(text1.classList.toggle('hideText'))
 }
 
 
-btnArrow.addEventListener('click', fun1);
 
+
+btnArrow.addEventListener('click', fun1);
 
 
 
